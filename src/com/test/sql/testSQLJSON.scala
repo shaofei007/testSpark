@@ -38,9 +38,7 @@ object testSQLJSON {
       "nameXXX",
       from_json(col("word"),schemaExample)
     ).show()
-
-
-
+// x
 //    stud_scoreDF.show()
   }
 }
